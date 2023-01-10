@@ -88,6 +88,7 @@ Clump,UnifSize,UnifShape,MargAdh,SingEpiSize,BareNuc,BlandChrom,NormNucl,Mit,Cla
 3,1,1,1,1,1,2,1,1,2
 4,1,1,1,2,1,1,1,1,2
 3,1,1,1,2,1,1,1,1,2
+4,1,2,1,2,1,1,1,1,2
 4,1,1,1,2,1,1,1,1,2
 4,1,1,1,1,1,2,1,1,2
 3,1,1,1,1,1,2,1,1,2
@@ -227,3 +228,4 @@ Clump,UnifSize,UnifShape,MargAdh,SingEpiSize,BareNuc,BlandChrom,NormNucl,Mit,Cla
 7,8,8,7,3,10,7,2,3,4
 3,10,7,8,5,8,7,4,1,4
 10,10,10,10,5,10,10,10,7,4
+4,8,8,5,4,5,10,4,1,4
