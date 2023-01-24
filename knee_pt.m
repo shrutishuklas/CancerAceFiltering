@@ -189,7 +189,7 @@ end
 % err_thresh=y(x(loc))
 % ang_thresh=y(idx_minangle)
 err_max=max(error_curve);
-err_ratio=brk_err/err_max;
+err_ratio=(err_max-brk_err)/err_max;
 %error_inliers= error_in(x(loc));
 res_x =err_ratio;%error_inliers;% x(loc);
 idx_of_result = idx(loc);
