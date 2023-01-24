@@ -180,7 +180,7 @@ for breakpt = 2:length(y-1)
     angle_threshold(breakpt)= angle;
 
 end
-err=sum(abs((mfwd(length(y)).*x(length(y))+bfwd(length(y)))-y(1:length(y))));
+err=(mfwd(length(y)).*x(length(y))+bfwd(length(y)))-y(1:length(y));
 %find location of the min of the error curve
 [brk_err,loc] = min(error_curve);
 % angleloc=angle_threshold(loc)
