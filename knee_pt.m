@@ -182,15 +182,16 @@ for breakpt = 2:length(y-1)
 end
 
 %find location of the min of the error curve
-[~,loc] = min(error_curve);
+[brk_err,loc] = min(error_curve);
 % angleloc=angle_threshold(loc)
 % minangle=min(angle_threshold)
 % idx_minangle=find(angle_threshold==minangle)
 % err_thresh=y(x(loc))
 % ang_thresh=y(idx_minangle)
-
-error_inliers= error_in(x(loc));
-res_x =error_inliers;% x(loc);
+err_max=max(error_curve);
+err_ratio=brk_err/err_max;
+%error_inliers= error_in(x(loc));
+res_x =err_ratio;%error_inliers;% x(loc);
 idx_of_result = idx(loc);
 end
 
