@@ -184,7 +184,7 @@ err=sum(abs(delerr));%/length(y));
 [brk_err,loc] = min(error_curve);
 
 
-err_ratio=(brk_err)/err;
+err_ratio=(brk_err)%/err;
 
 res_x =err_ratio;%error_inliers;% x(loc);
 idx_of_result = idx(loc);
